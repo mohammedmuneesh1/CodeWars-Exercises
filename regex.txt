@@ -1,0 +1,7 @@
+syntax:
+/pattern/flags
+
+1) regular expression enclosed between / and /
+2)^ starts of the line with must string  otherwise it will return false if we give number as starting 
+3)s? it helps to match http and https so if s exist then takes it . kind of optional
+4) in regex we use [] for defining character class example "The-stealth_king"--> Thestealthking . we use str.replace(/[-_]/g,"")
